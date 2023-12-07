@@ -1,0 +1,165 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #E8EAED;
+    color: #202124;
+    font-family: Roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    height: 100%;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.form-link {
+    color: #1A73E8;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-decoration: none;
+}
+
+.form-submit-button {
+    float: right;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 2.5px;
+    padding: 6px;
+    background-color: #3C3C3C;
+}
+
+.form-submit-button:hover {
+    background-color: #4C4C4C;
+    cursor: pointer;
+}
+
+/* Disable <input type="number"> arrows */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.form-wrapper {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-group {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.form-input,
+.form-select {
+    font: 400 16px Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    height: 30px;
+    line-height: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    color: inherit;
+}
+
+.form-select {
+    color: rgb(32, 33, 36, 0.7);
+}
+
+.form-select option {
+    color: #202124;
+}
+
+.month-select {
+    float: left;
+    width: 110px;
+}
+
+.year-input {
+    float: right;
+}
+
+.day-input,
+.year-input {
+    width: 50px;
+}
+
+.form-error {
+    color: rgb(217, 48, 37);
+    font-size: 12px;
+    margin: 0;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    width: 150px;
+    height: 100%;
+    position: fixed;
+}
+
+.navbar-link {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #E8EAED;
+}
+
+.logout-item {
+    position: absolute;
+    bottom: 0;
+    width: 150px;
+}
+
+.navbar-logout {
+    background-color: #333;
+    border: none;
+    width: 100%;
+    color: #1A73E8;
+}
+
+.navbar-item:hover,
+.navbar-logout:hover {
+    background-color: #444;
+}
+
+.body-container {
+    width: calc(100% - 150px);
+    height: 100%;
+    display: block;
+    float: right;
+    padding: 50px;
+    box-sizing: border-box;
+
+}
+
+table {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    border-radius: 10px;
+    width: 50%;
+}
+
+td,
+th {
+    border: 2px solid #000;
+    text-align: left;
+    padding: 8px;
+    width: 50%;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
